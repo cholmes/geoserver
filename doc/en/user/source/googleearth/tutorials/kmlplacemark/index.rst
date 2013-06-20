@@ -8,9 +8,9 @@ Introduction
 
 In KML a "Placemark" is used to mark a position on a map, often visualized with a yellow push pin. A placemark can have a "description" which allows one to attach information to it. Placemark descriptions are nothing more then an HTML snippet and can contain anything we want it to.
 
-By default GeoServer produces placemark descriptions which are HTML tables describing all the attributes available for a particular feature in a dataset. In the following image we see the placemark description for the feature representing Idaho state:
+By default GeoServer produces placemark descriptions which are HTML lists describing all the attributes available for a particular feature in a dataset. In the following image we see the placemark description for the feature representing the state of Texas:
 
-.. figure:: default.jpg
+.. figure:: ../../descriptionDefault.png
    :align: center
 
    *The default placemark*
